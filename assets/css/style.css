@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --almost-black: #1A1A1A;
+}
+
+html {
+    background-color: var(--almost-black);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+/* nav bar */
+li, a, button {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+header {
+    background-color: #0a0a0a59;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(4px);
+    box-shadow: 0px -5px 10px 6px black;
+}
+
+.nav-logo {
+    cursor: pointer;
+    height: auto;
+    width: 200px;
+}
+
+.nav-link {
+    list-style: none;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 10px 40px;
+}
+
+.nav-link li a {
+    transition: all 0.3s ease 0s;
+    font-weight: 700;
+    text-align: center;
+}
+
+.nav-link li a:hover {
+    color: #99FFFF;
+}
+
+/* article styles (general) */
+article {
+    height: 100vh;
+    display: flex;
+    margin: 0px 80px;
+}
+
+article h1 {
+    font: 700 2.5rem/3rem "Outfit";
+}
+
+article p {
+    font: 300 1rem/1.1rem "Outfit";
+    letter-spacing: 0.5px;
+}
+
+/* section styles (general) */
+
+/* #top article styles */
+article#top {
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+article#top section p {
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+article#top div.btn-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+article#top div.btn-container .btn {
+    margin-right: 30px;
+    background-color: white;
+    border: 3px solid white;
+    color: var(--almost-black);
+    font-weight: 600;
+    padding: 5px 20px;
+    border-radius: 65px;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+article#top div.btn-container .btn:hover {
+    border-color: #99FFFF;
+    background-color: var(--almost-black);
+    color: #99FFFF;
+}
+
+/*
+
+:')
+
+article#top div.btn-container .btn:after {
+    content: "";
+    display: inline-block;
+    background: url("../images/chevron_right.svg") no-repeat right center;
+    margin-top: 1px;
+    width: 15px;
+    height: 15px;
+}
+
+*/
+
+/* #about article styles */
+article#about {
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+article#about section.our-vision {
+    width: 60%;
+}
+
+article#about section p {
+    margin: 20px;
+}
+
+article#about section.our-vision p {
+    margin-left: 160px;
+}
+
+article#about section.ar-problem {
+    display: flex;
+    padding-left: 30%;
+}
+
+/* #roadmap article styles */
+
+article#roadmap {
+    align-items: center;
+}
+
+article#roadmap .container {
+    display: flex;
+}
+
+article#roadmap h1 {
+    margin-bottom: 80px;
+    width: 40%;
+}
+
+article#roadmap .container h2 {
+    font: 600 1.25rem/1.5rem "Outfit";
+}
+
+article#roadmap .container-item {
+    width: 33%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article#roadmap img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
