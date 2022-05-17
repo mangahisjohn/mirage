@@ -9,7 +9,9 @@
 </head>
 <body>
     <header class="sticky">
-        <img src="assets/images/mirage_logo_long.svg" alt="mirage-global-logo" class="nav-logo">
+        <a href="#top">
+            <img src="assets/images/mirage_logo_long.svg" alt="mirage-global-logo" class="nav-logo">
+        </a>
         <nav>
             <ul class="nav-link">
                 <li><a href="#about">About</a></li>
@@ -22,11 +24,10 @@
     <main>
         <article id="top">
             <section>
-                <h1>Augmented reality, everywhere</h1>
-                <p>Mirage bring the power of augmented reality to all aspects of your life through a single platform that intends to create a network of spaces for interaction with digital AR assets.</p>
+                <h1>Augmented reality, <br>everywhere</h1>
+                <p>Mirage brings the power of augmented reality to all aspects of your life through a single platform that intends to create a network of spaces for interaction with digital AR assets.</p>
                 <div class="btn-container">
-                    <div class="btn btn-1" role="button" tabindex="0">Call to action</div>
-                    <div class="btn btn-2" role="button" tabindex="0">Call to action</div>
+                    <div class="btn" role="button" tabindex="0">Contact us</div>
                 </div>
             </section>
         </article>
@@ -68,6 +69,60 @@
                 </div>
             </section>
         </article>
+        <article id="team">
+            <section>
+                <div class="card">
+                    <div class="image-container"><img src="assets/images/team/blank.png" alt="anthony-duncalf"></div>
+                    <div class="card-info">
+                        <h3>Anthony Duncalf - CEO</h3>
+                        <p>3+ years in finance, consulting, project management and programming.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container"><img src="assets/images/team/blank.png" alt="joshua-venters"></div>
+                    <div class="card-info">
+                        <h3>Joshua Venters - CTO</h3>
+                        <p>2+ years of experience in machine learning, computer vision R&D and deployment, and server engineering.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container"><img src="assets/images/team/blank.png" alt="sebastian-pira"></div>
+                    <div class="card-info">
+                        <h3>Sebastian Pira - Developer</h3>
+                        <p>2+ years of experience in full stack development. </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image-container"><img src="assets/images/team/blank.png" alt="behrad-kooh"></div>
+                    <div class="card-info">
+                        <h3>Behrad Kooh - Developer</h3>
+                        <p>Computer Science PhD student studying networks with full stack experience and previous employement at J.P. Morgan.</p>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <article id="contact">
+            <section class="message-form">
+                <h2>Send us a message</h2>
+                <input type="text" name="messageName" id="messageName" placeholder="Name">
+                <input type="email" name="messageEmail" id="messageEmail" placeholder="Email">
+                <textarea name="messageText" id="messageText"  placeholder="Message" cols="30" rows="10"></textarea>
+                <div class="btn-container">
+                    <div class="btn" role="button" tabindex="0">Submit</div>
+                </div>
+            </section>
+            <section class="updates">
+                <h2>Get the latest development updates</h2>
+                <input type="email" name="updatesEmail" id="updatesEmail" placeholder="Email">
+                <p><a href="">Terms, Conditions & Privacy Policy</a></p>
+                <div class="socials-container">
+                    <a href=""><object class="socials-icon" data="assets/images/socials/twitter.svg" alt="mirage-twitter"></object></a>
+                    <a href=""><object class="socials-icon" data="assets/images/socials/instagram.svg" alt="mirage-instagram"></object></a>
+                    <a href=""><object class="socials-icon" data="assets/images/socials/discord.svg" alt="mirage-discord"></object></a>
+                </div>
+            </section>
+        </article>
     </main>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
