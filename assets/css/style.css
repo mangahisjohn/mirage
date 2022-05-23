@@ -242,11 +242,12 @@ article#team section {
 
 .card {
     display: flex;
+    align-items: center;
     background-color: #2c2c2c;
     padding: 10px 15px;
     border-radius: 20px;
-    width: 400px;
-    height: 125px;
+    width: 375px;
+    height: 150px;
     margin: 20px;
     box-shadow: 0 0 15px 1px #2c2c2c;
 }
@@ -372,7 +373,7 @@ article#terms section p {
 /*       Responsive design       */
 /*********************************/
 
-/* Medium (Small desktop) */
+/* Large */
 @media screen and (max-width: 992px) {
 
     /* nav bar */
@@ -384,12 +385,19 @@ article#terms section p {
         width: 170px;
     }
 
+    /* home */
     article#home section.home h1 {
         font: 700 2.8rem/3.5rem "Outfit";
     }
 
     article#home section.home {
         width: 100%;
+    }
+
+    /* team */
+    .card {
+        width: 460px;
+        height: 120px;
     }
 }
 
@@ -419,6 +427,7 @@ article#terms section p {
 
     .about-1, .about-2 {
         display: block;
+        width: 100%;
     }
 
     .about-2 {
@@ -429,8 +438,50 @@ article#terms section p {
         margin-left: 0;
         margin-top: 10px;
     }
+
+    /* contact */
+    article#contact {
+        flex-direction: column;
+    }
 }
 
 /* X-Small (Mobile) */
 @media screen and (max-width: 576px) {
+    /* general */
+    article {
+        margin: 0px 30px;
+    }
+
+    /* home */
+    article#home h1 {
+        font: 700 2rem/2.5rem "Outfit" !important;
+    }
+
+    article#home section.home p {
+        margin-right: 0;
+        font: 300 1.1rem/1.4rem "Outfit" !important;
+    }
+
+    /* about  */
+    .about-1 {
+        margin-bottom: 40px;
+    }
+
+    /* team */
+
+    article#team {
+        margin-bottom: 40px;
+    }
+    .card {
+        width: 335px;
+        height: 150px;
+    }
+
+    .card .image-container {
+        border-radius: 20px;
+        min-height: 80px;
+        min-width: 80px;
+        max-height: 80px;
+        max-width: 80px;
+      }
 }

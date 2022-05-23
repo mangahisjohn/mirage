@@ -69,28 +69,28 @@
                 <div class="card">
                     <div class="image-container"><img src="assets/images/team/anthony.png" alt="anthony-duncalf"></div>
                     <div class="card-info">
-                        <h3>Anthony Duncalf <span>| CEO</span></h3>
+                        <h3><span>CEO | </span> Anthony Duncalf </h3>
                         <p>3+ years in finance, consulting, project management and programming.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="image-container"><img src="assets/images/team/josh.jpg" alt="joshua-venters"></div>
                     <div class="card-info">
-                        <h3>Joshua Venters <span>| CTO</span></h3>
+                        <h3><span>CTO |</span> Joshua Venters</h3>
                         <p>2+ years of experience in machine learning, computer vision R&D and deployment, and server engineering.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="image-container"><img src="assets/images/team/seb.jpg" alt="sebastian-pira"></div>
                     <div class="card-info">
-                        <h3>Sebastian Pira <span>| Developer</span></h3>
+                        <h3><span>Developer | </span> Sebastian Pira</h3>
                         <p>2+ years of experience in full stack development. </p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="image-container"><img src="assets/images/team/behrad.jpg" alt="behrad-kooh"></div>
                     <div class="card-info">
-                        <h3>Behrad Kooh <span>| Developer</span></h3>
+                        <h3><span>Developer | </span> Behrad Kooh</h3>
                         <p>Computer Science PhD student studying networks with full stack experience and previous employment at J.P. Morgan.</p>
                     </div>
                 </div>
