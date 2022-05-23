@@ -49,10 +49,18 @@ header {
     box-shadow: 0px -5px 10px 6px black;
 }
 
-.nav-logo {
+.nav-logo-long, .nav-logo-short {
     cursor: pointer;
     height: auto;
+}
+
+.nav-logo-long {
     width: 200px;
+}
+
+.nav-logo-short {
+    display: none;
+    width: 50px;
 }
 
 .nav-link {
@@ -61,7 +69,7 @@ header {
 
 .nav-link li {
     display: inline-block;
-    padding: 10px 40px;
+    padding: 10px 30px;
 }
 
 .nav-link li a {
@@ -100,7 +108,7 @@ article#home {
 article#home section.home {
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 70%;
 }
 
 article#home section.home h1 {
@@ -184,26 +192,26 @@ article#about {
     margin-top: 10px;
 }
 
-/* #roadmap article styles */
+/* #platform article styles */
 
-article#roadmap {
+article#platform {
     align-items: center;
 }
 
-article#roadmap .container {
+article#platform .container {
     display: flex;
 }
 
-article#roadmap h1 {
+article#platform h1 {
     margin-bottom: 80px;
     width: 40%;
 }
 
-article#roadmap .container h2 {
+article#platform .container h2 {
     font: 600 1.25rem/1.5rem "Outfit";
 }
 
-article#roadmap .container-item {
+article#platform .container-item {
     width: 33%;
     padding: 15px;
     display: flex;
@@ -211,7 +219,7 @@ article#roadmap .container-item {
     align-items: center;
 }
 
-article#roadmap img {
+article#platform img {
     width: 100px;
     height: 100px;
     margin: 20px;
@@ -337,9 +345,8 @@ section.updates p {
 .socials-icon:hover {
     color: rgb(255, 134, 134);
 }
-/************************/
+
 /* terms and conditions */
-/************************/
 
 article#terms {
     display: block;
@@ -359,4 +366,71 @@ article#terms section p {
 
 article#terms section p {
     margin-bottom: 10px;
+}
+
+/*********************************/
+/*       Responsive design       */
+/*********************************/
+
+/* Medium (Small desktop) */
+@media screen and (max-width: 992px) {
+
+    /* nav bar */
+    .nav-link li {
+        padding: 10px 16px;
+    }
+
+    .nav-logo-long {
+        width: 170px;
+    }
+
+    article#home section.home h1 {
+        font: 700 2.8rem/3.5rem "Outfit";
+    }
+
+    article#home section.home {
+        width: 100%;
+    }
+}
+
+/* Small (Tablet) */
+@media screen and (max-width: 768px) {
+
+    /* nav bar */
+    .nav-link li {
+        padding: 10px 16px;
+    }
+
+    .nav-logo-long {
+        display: none;
+    }
+
+    .nav-logo-short {
+        display: inline;
+    }
+
+
+    /* home */
+    article#home h1 {
+        font: 700 2.8rem/3.5rem "Outfit";
+    }
+
+    /* about */
+
+    .about-1, .about-2 {
+        display: block;
+    }
+
+    .about-2 {
+        padding-left: 0;
+    }
+
+    .about-2 p {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+/* X-Small (Mobile) */
+@media screen and (max-width: 576px) {
 }

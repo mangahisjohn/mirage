@@ -3,13 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Mirage Global</title>
     <?php include_once("divs/headtags.php"); ?>
 </head>
 <body>
-    <?php include_once("divs/nav.php"); ?>
     <main>
+    <?php include_once("divs/nav.php"); ?>
         <article id="home">
             <section class="home">
                 <h1>A single platform<br>for augmented reality</h1>
@@ -31,7 +30,7 @@
                 <p>The full potential of augmented reality is currently restricted by a lack of accessibility.  AR is largely offered as a feature on certain websites or at most as a single-use app, specific to individual companies. In order to offer both businesses and consumers the full use and entertainment potential of AR, these features need to be united into a single platform.</p>
             </section>
         </article>
-        <article id="roadmap">
+        <article id="platform">
             <section>
                 <div class="container">
                     <div class="container-item">
@@ -68,28 +67,28 @@
         <article id="team">
             <section>
                 <div class="card">
-                    <div class="image-container"><img src="assets/images/team/blank.png" alt="anthony-duncalf"></div>
+                    <div class="image-container"><img src="assets/images/team/anthony.png" alt="anthony-duncalf"></div>
                     <div class="card-info">
                         <h3>Anthony Duncalf <span>| CEO</span></h3>
                         <p>3+ years in finance, consulting, project management and programming.</p>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="image-container"><img src="assets/images/team/blank.png" alt="joshua-venters"></div>
+                    <div class="image-container"><img src="assets/images/team/josh.jpg" alt="joshua-venters"></div>
                     <div class="card-info">
                         <h3>Joshua Venters <span>| CTO</span></h3>
                         <p>2+ years of experience in machine learning, computer vision R&D and deployment, and server engineering.</p>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="image-container"><img src="assets/images/team/blank.png" alt="sebastian-pira"></div>
+                    <div class="image-container"><img src="assets/images/team/seb.jpg" alt="sebastian-pira"></div>
                     <div class="card-info">
                         <h3>Sebastian Pira <span>| Developer</span></h3>
                         <p>2+ years of experience in full stack development. </p>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="image-container"><img src="assets/images/team/blank.png" alt="behrad-kooh"></div>
+                    <div class="image-container"><img src="assets/images/team/behrad.jpg" alt="behrad-kooh"></div>
                     <div class="card-info">
                         <h3>Behrad Kooh <span>| Developer</span></h3>
                         <p>Computer Science PhD student studying networks with full stack experience and previous employment at J.P. Morgan.</p>
@@ -98,7 +97,7 @@
             </section>
         </article>
         <?php include_once("divs/footer.php"); ?>
-    </main>
     <script src="assets/js/script.js"></script>
+    </main>
 </body>
 </html>
