@@ -92,22 +92,22 @@ article p {
 
 /* section styles (general) */
 
-/* #top article styles */
-article#top {
+/* #home article styles */
+article#home {
     align-items: center;
 }
 
-article#top section.home {
+article#home section.home {
     flex-direction: column;
     justify-content: center;
     width: 50%;
 }
 
-article#top section.home h1 {
+article#home section.home h1 {
     font: 700 3.6rem/4rem "Outfit";
 }
 
-article#top section.home p {
+article#home section.home p {
     margin-top: 20px;
     margin-right: 100px;
     font: 300 1.4rem/1.7rem "Outfit";
@@ -149,7 +149,7 @@ div.btn-container .btn:hover {
 
 :')
 
-article#top div.btn-container .btn:after {
+article#home div.btn-container .btn:after {
     content: "";
     display: inline-block;
     background: url("../images/chevron_right.svg") no-repeat right center;

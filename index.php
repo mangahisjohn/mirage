@@ -5,35 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Mirage Global</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/favicon//site.webmanifest">
-    <link rel="mask-icon" href="assets/images/favicon//safari-pinned-tab.svg" color="#1a1a1a">
-    <meta name="apple-mobile-web-app-title" content="Mirage Technology">
-    <meta name="application-name" content="Mirage Technology">
-    <meta name="msapplication-TileColor" content="#f3f3f3">
-    <meta name="theme-color" content="#f3f3f3">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/a6a2aa11cc.js" crossorigin="anonymous"></script>
+    <?php include_once("divs/headtags.php"); ?>
 </head>
 <body>
-    <header>
-        <a href="#top">
-            <img src="assets/images/mirage_logo_long.svg" alt="mirage-global-logo" class="nav-logo">
-        </a>
-        <nav>
-            <ul class="nav-link">
-                <li><a href="#top">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#roadmap">Platform</a></li>
-                <li><a href="#team">Team</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php include_once("divs/nav.php"); ?>
     <main>
-        <article id="top">
+        <article id="home">
             <section class="home">
                 <h1>A single platform<br>for augmented reality</h1>
                 <p>Mirage is the home of augmented reality, providing users with a single platform through which to access interactive AR in daily life. </p>
@@ -120,36 +97,7 @@
                 </div>
             </section>
         </article>
-        <article id="contact">
-            <section class="message-form">
-                <h2>Send us a message</h2>
-                <input type="text" name="messageName" id="messageName" placeholder="Name">
-                <input type="email" name="messageEmail" id="messageEmail" placeholder="Email">
-                <textarea name="messageText" id="messageText"  placeholder="Message" cols="30" rows="10"></textarea>
-                <div class="btn-container">
-                    <div class="btn" role="button" tabindex="0">Submit</div>
-                </div>
-            </section>
-            <section class="updates">
-                <h2>Get the latest development updates</h2>
-                <input type="email" name="updatesEmail" id="updatesEmail" placeholder="Email">
-                <p><a href="terms_and_privacy.html">Terms, Conditions & Privacy Policy</a></p>
-                <div class="socials-container">
-                    <!-- Instagram -->
-                    <a href="https://www.instagram.com/mirage_technology/"><span class="socials-icon fa-brands fa-instagram fa-xl"></span></a>
-                    <!-- Facebook -->
-                    <a href="https://www.facebook.com/miragetechglobal"><span class="socials-icon fa-brands fa-facebook fa-xl"></span></a>
-                    <!-- Twitter -->
-                    <a href="https://twitter.com/Mirage_tech_"><span class="socials-icon fa-brands fa-twitter fa-xl"></span></a>
-                    <!-- LinkedIn -->
-                    <a href="https://www.linkedin.com/company/miragetechnology/"><span class="socials-icon fa-brands fa-linkedin fa-xl"></span></a>
-                    <!-- TikTok -->
-                    <a href="https://www.tiktok.com/@mirage_technology"><span class="socials-icon fa-brands fa-tiktok fa-xl"></span></a>
-                    <!-- Discord -->
-                    <a href="https://discord.gg/Xv4CZb2VPd"><span class="socials-icon fa-brands fa-discord fa-xl"></span></a>
-                </div>
-            </section>
-        </article>
+        <?php include_once("divs/footer.php"); ?>
     </main>
     <script src="assets/js/script.js"></script>
 </body>

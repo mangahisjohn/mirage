@@ -5,24 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms, Conditions and Privacy Policy Mirage Global</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/a6a2aa11cc.js" crossorigin="anonymous"></script>
+    <?php include_once("divs/headtags.php"); ?>
 </head>
 <body>
-    <header>
-        <a href="#top">
-            <img src="assets/images/mirage_logo_long.svg" alt="mirage-global-logo" class="nav-logo">
-        </a>
-        <nav>
-            <ul class="nav-link">
-                <li><a href="/index.html#top">Home</a></li>
-                <li><a href="/index.html#about">About</a></li>
-                <li><a href="/index.html#roadmap">Platform</a></li>
-                <li><a href="/index.html#team">Team</a></li>
-                <li><a href="/index.html#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php include_once("divs/nav.php"); ?>
     <main>
         <article id="terms">
             <section>
@@ -56,38 +42,8 @@
                 </p>
                 <p>Every effort is made to keep the website up and running smoothly. However, Mirage Technology Ltd takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.</p>
             </section>
-
         </article>
-        <article id="contact">
-            <section class="message-form">
-                <h2>Send us a message</h2>
-                <input type="text" name="messageName" id="messageName" placeholder="Name">
-                <input type="email" name="messageEmail" id="messageEmail" placeholder="Email">
-                <textarea name="messageText" id="messageText"  placeholder="Message" cols="30" rows="10"></textarea>
-                <div class="btn-container">
-                    <div class="btn" role="button" tabindex="0">Submit</div>
-                </div>
-            </section>
-            <section class="updates">
-                <h2>Get the latest development updates</h2>
-                <input type="email" name="updatesEmail" id="updatesEmail" placeholder="Email">
-                <p><a href="">Terms, Conditions & Privacy Policy</a></p>
-                <div class="socials-container">
-                    <!-- Instagram -->
-                    <a href="https://www.instagram.com/mirage_technology/"><span class="socials-icon fa-brands fa-instagram fa-xl"></span></a>
-                    <!-- Facebook -->
-                    <a href="https://www.facebook.com/miragetechglobal"><span class="socials-icon fa-brands fa-facebook fa-xl"></span></a>
-                    <!-- Twitter -->
-                    <a href="https://twitter.com/Mirage_tech_"><span class="socials-icon fa-brands fa-twitter fa-xl"></span></a>
-                    <!-- LinkedIn -->
-                    <a href="https://www.linkedin.com/company/miragetechnology/"><span class="socials-icon fa-brands fa-linkedin fa-xl"></span></a>
-                    <!-- TikTok -->
-                    <a href="https://www.tiktok.com/@mirage_technology"><span class="socials-icon fa-brands fa-tiktok fa-xl"></span></a>
-                    <!-- Discord -->
-                    <a href="https://discord.gg/Xv4CZb2VPd"><span class="socials-icon fa-brands fa-discord fa-xl"></span></a>
-                </div>
-            </section>
-        </article>
+        <?php include_once("divs/footer.php"); ?>
     </main>
     <script src="assets/js/script.js"></script>
 </body>
