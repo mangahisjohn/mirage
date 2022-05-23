@@ -6,15 +6,10 @@
 
 html {
     background-image: url(../images/mirage_bg_opaque.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     scroll-behavior: smooth;
-}
-
-h1 {
-    color: #46ADE0;
-}
-
-p {
-    color: #46ADE0;
 }
 
 p a {
@@ -45,11 +40,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
-}
-
-header {
     background-color: #000000cc;
     position: fixed;
+    top: 0;
     z-index: 9;
     width: 100%;
     backdrop-filter: blur(4px);
@@ -93,9 +86,8 @@ article h1 {
 }
 
 article p {
-    font: 300 1rem/1.1rem "Outfit";
+    font: 300 1rem/1.4rem "Outfit";
     letter-spacing: 1px;
-    text-align: justify;
 }
 
 /* section styles (general) */
@@ -111,9 +103,14 @@ article#top section.home {
     width: 50%;
 }
 
+article#top section.home h1 {
+    font: 700 3.6rem/4rem "Outfit";
+}
+
 article#top section.home p {
     margin-top: 20px;
     margin-right: 100px;
+    font: 300 1.4rem/1.7rem "Outfit";
 }
 
 div.btn-container {
@@ -138,7 +135,7 @@ div.btn-container .btn {
 
 div.btn-container .btn:hover {
     border-color: #99FFFF;
-    background-color: #00000000;
+    background-color: #ffffff00;
     color: #99FFFF;
 }
 
@@ -265,15 +262,19 @@ article#team section {
 }
 
 .card-info h3 {
-    font-weight: 600;
-    font-size: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
 }
 
 .card-info p {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
     text-align: left;
 }
 
+.card-info span {
+    font-weight: 100;
+}
 
 /* #contact article styles */
 
@@ -335,4 +336,27 @@ section.updates p {
 
 .socials-icon:hover {
     color: rgb(255, 134, 134);
+}
+/************************/
+/* terms and conditions */
+/************************/
+
+article#terms {
+    display: block;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+article#terms section {
+    margin-top: 110px;
+}
+
+article#terms section h1,
+article#terms section h2,
+article#terms section p {
+    margin-top: 20px;
+}
+
+article#terms section p {
+    margin-bottom: 10px;
 }

@@ -1,18 +1,3 @@
-/* General: smooth scrolling */
-const links = document.querySelectorAll("header ul a");
-for (const link of links) {
-  link.addEventListener("click", clickHandler);
-};
-
-function clickHandler(e) {
-  e.preventDefault();
-  const offsetTop = document.querySelector(this.getAttribute("href")).offsetTop;
-  scroll({
-    top: offsetTop,
-    behavior: "smooth"
-  });
-};
-
 /* Roadmap: icon hover animation */
 document.querySelectorAll("article#roadmap div.image-container img").forEach(icon => {
     icon.addEventListener("mouseenter", function(e) {
