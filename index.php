@@ -34,7 +34,7 @@
             <section>
                 <div class="container">
                     <div class="container-item">
-                        <div class="image-container"><img src="assets/images/cart.svg" alt="ar-interaction-icon"></div>
+                        <div class="image-container"><img src="assets/images/ar.svg" alt="ar-interaction-icon"></div>
                         <div>
                             <h2>AR interaction</h2>
                             <p>Users can interact with AR both socially and remotely, accessing helpful utilities developed by businesses and individuals.</p>
@@ -48,14 +48,14 @@
                         </div>
                     </div>
                     <div class="container-item">
-                        <div class="image-container"><img src="assets/images/social.svg" alt="social-features-networking-icon"></div>
+                        <div class="image-container"><img src="assets/images/gears.svg" alt="social-features-networking-icon"></div>
                         <div>
                             <h2>Social features</h2>
                             <p>Friends lists and friend-based privacy features, social media add-ins and a text chat messaging system form the basis of the platform's social features and are the foundation of the socially interactive aspects on Mirage's platform.</p>
                         </div>
                     </div>
                     <div class="container-item">
-                        <div class="image-container"><img src="assets/images/compass.svg" alt="workshop-compass-icon"></div>
+                        <div class="image-container"><img src="assets/images/store.svg" alt="workshop-compass-icon"></div>
                         <div>
                             <h2>Workshop</h2>
                             <p>An asset creation service that serves to lower the technical barrier to asset creation and enable individuals to create, populate the marketplace and earn on the platform. </p>

@@ -432,6 +432,10 @@ article#terms section p {
         flex-direction: row;
     }
 
+    article#platform .image-container {
+        margin-right: 10px;
+    }
+
     /* about */
     .about-1 {
         margin-bottom: 40px;
