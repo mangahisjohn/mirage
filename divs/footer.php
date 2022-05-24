@@ -1,16 +1,19 @@
 <article id="contact">
     <section class="message-form">
         <h2>Send us a message</h2>
-        <input type="text" name="messageName" id="messageName" placeholder="Name">
-        <input type="email" name="messageEmail" id="messageEmail" placeholder="Email">
-        <textarea name="messageText" id="messageText"  placeholder="Message" cols="30" rows="10"></textarea>
+        <input type="text" name="messageName" id="message-name" placeholder="Name">
+        <input type="email" name="messageEmail" id="message-email" placeholder="Email">
+        <textarea name="messageText" id="message-text"  placeholder="Message" cols="30" rows="10"></textarea>
         <div class="btn-container">
-            <div class="btn" role="button" tabindex="0">Submit</div>
+            <div id="message-btn" class="btn" role="button" tabindex="0">Submit</div>
         </div>
     </section>
     <section class="updates">
         <h2>Get the latest development updates</h2>
-        <input type="email" name="updatesEmail" id="updatesEmail" placeholder="Email">
+        <input type="email" name="updatesEmail" id="getupdates-email" placeholder="Email">
+        <div class="btn-container">
+            <div id="getupdates-btn" class="btn" role="button" tabindex="0">Get updates</div>
+        </div>
         <p><a href="terms_and_privacy.php">Terms, Conditions & Privacy Policy</a></p>
         <div class="socials-container">
             <!-- Instagram -->

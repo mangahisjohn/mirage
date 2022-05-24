@@ -40,7 +40,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 10%;
-    background-color: #000000cc;
+    background-color: #1A1A1AD9;
     position: fixed;
     top: 0;
     z-index: 9;
@@ -63,23 +63,36 @@ header {
     width: 50px;
 }
 
-.nav-link {
+#nav-link {
     list-style: none;
 }
 
-.nav-link li {
+#nav-link li {
     display: inline-block;
     padding: 10px 30px;
 }
 
-.nav-link li a {
+#nav-link li a {
     transition: all 0.3s ease 0s;
     font-weight: 700;
     text-align: center;
 }
 
-.nav-link li a:hover {
+#nav-link li a:hover {
     color: #99FFFF;
+}
+
+.mobile-nav-icon {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-nav-icon i {
+    transition: all 0.2s;
+}
+
+.mobile-nav-icon i:hover {
+    color: #8db4ff;
 }
 
 /* article styles (general) */
@@ -100,7 +113,7 @@ article p {
 
 /* section styles (general) */
 
-/* #home article styles */
+/* #home */
 article#home {
     align-items: center;
 }
@@ -168,7 +181,7 @@ article#home div.btn-container .btn:after {
 
 */
 
-/* #about article styles */
+/* #about */
 article#about {
     flex-direction: column;
     justify-content: space-evenly;
@@ -192,7 +205,7 @@ article#about {
     margin-top: 10px;
 }
 
-/* #platform article styles */
+/* #platform */
 
 article#platform {
     align-items: center;
@@ -226,18 +239,19 @@ article#platform img {
     transition: all 0.3s ease;
 }
 
-/* #team article styles */
+/* #team */
 
 article#team {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    height: auto;
+    margin-bottom: 100px;
 }
 
 article#team section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0px;
 }
 
 .card {
@@ -285,7 +299,7 @@ article#team section {
     font-weight: 100;
 }
 
-/* #contact article styles */
+/* #contact */
 
 article#contact {
     border-top: 2px solid #ffffffb1;
@@ -315,6 +329,7 @@ article#contact section textarea {
     font-size: 1rem;
     width: 100%;
     border: none;
+    border-radius: 7px;
 }
 
 article#contact section textarea {
@@ -344,7 +359,7 @@ section.updates p {
 }
 
 .socials-icon:hover {
-    color: rgb(255, 134, 134);
+    color: #ff8686;
 }
 
 /* terms and conditions */
@@ -370,14 +385,22 @@ article#terms section p {
 }
 
 /*********************************/
-/*       Responsive design       */
+/*         Media queries         */
 /*********************************/
 
 /* Large */
+@media screen and (min-width: 1404px) {
+    article#team section {
+        padding: 0px 100px;
+    }
+
+}
+
+/* Medium */
 @media screen and (max-width: 992px) {
 
     /* nav bar */
-    .nav-link li {
+    #nav-link li {
         padding: 10px 16px;
     }
 
@@ -394,18 +417,42 @@ article#terms section p {
         width: 100%;
     }
 
+    /* platform  */
+    article#platform {
+        height: auto;
+        margin: 50px;
+    }
+
+    article#platform .container {
+        flex-direction: column;
+    }
+
+    article#platform .container .container-item {
+        width: auto;
+        flex-direction: row;
+    }
+
+    /* about */
+    .about-1 {
+        margin-bottom: 40px;
+    }
+
     /* team */
+    article#team section {
+        padding: 0;
+    }
+
     .card {
         width: 460px;
         height: 120px;
     }
 }
 
-/* Small (Tablet) */
+/* Small */
 @media screen and (max-width: 768px) {
 
     /* nav bar */
-    .nav-link li {
+    #nav-link li {
         padding: 10px 16px;
     }
 
@@ -442,10 +489,55 @@ article#terms section p {
     /* contact */
     article#contact {
         flex-direction: column;
+        align-items: center;
     }
 }
 
-/* X-Small (Mobile) */
+/* breakpoint for ≡ menu on mobile */
+@media screen and (max-width: 622px) {
+    .nav-logo-short {
+        display: none;
+    }
+
+    .nav-logo-long {
+        display: inline;
+    }
+
+    .mobile-nav-icon {
+        display: block;
+    }
+
+    nav {
+        display: block;
+        position: fixed;
+        top: 75px;
+        left: 0;
+        right: 0;
+        background-color: #454545fa;
+        overflow: hidden;
+        transition: all 0.6s ease;
+        z-index: 0;
+    }
+
+    nav.mobile-navstate-inactive {
+        height: 0;
+    }
+
+    nav.mobile-navstate-active {
+        height: 260px;
+    }
+
+    #nav-link li {
+        display: list-item;
+        margin: 10px 30px;
+    }
+
+    #nav-link li a {
+        color: #f9f9f9;
+    }
+}
+
+/* X-Small */
 @media screen and (max-width: 576px) {
     /* general */
     article {
@@ -462,9 +554,16 @@ article#terms section p {
         font: 300 1.1rem/1.4rem "Outfit" !important;
     }
 
-    /* about  */
-    .about-1 {
-        margin-bottom: 40px;
+    /* about */
+    article#about {
+        height: auto;
+        margin: 50px;
+    }
+
+    /* platform */
+    article#platform .container .container-item {
+        width: auto;
+        flex-direction: column;
     }
 
     /* team */
@@ -483,5 +582,21 @@ article#terms section p {
         min-width: 80px;
         max-height: 80px;
         max-width: 80px;
-      }
+    }
+
+    /* contact */
+
+    article#contact section {
+        width: 100%;
+    }
+
+    .card {
+        flex-direction: column;
+        height: 210px;
+        justify-content: center;
+    }
+
+    .card .image-container {
+        margin-bottom: 10px;
+    }
 }

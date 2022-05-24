@@ -12,15 +12,11 @@ document.querySelectorAll("article#platform div.image-container img").forEach(ic
     });
 });
 
+const toggleMobileNav = () => {
+    document.getElementById("mobile-nav-container").classList.toggle("mobile-navstate-inactive");
+    document.getElementById("mobile-nav-container").classList.toggle("mobile-navstate-active");
+}
 
-/* Contact: Social links hover animation */
-document.querySelectorAll(".socials-icon").forEach(icon => {
-      icon.addEventListener("mouseenter", function(e) {
-        icon.setAttribute("fill", "99FFFF");
-  });
-});
-document.querySelectorAll(".socials-icon").forEach(icon => {
-  icon.addEventListener("mouseleave", function(e) {
-      icon.style.fill = "white";
-  });
-});
+document.getElementById("nav-mobile-icon").addEventListener("click", toggleMobileNav);
+
+document.getElementsByClassName("nav-mobile-icon")
