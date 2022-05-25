@@ -190,6 +190,7 @@ article#about {
 
 article#about section {
     display: flex;
+    margin: 0 7%;
 }
 
 article#about section p {
@@ -199,11 +200,12 @@ article#about section p {
 /* topright  */
 
 .about-topright h1 {
+    text-align: right;
     min-width: 235px;
 }
 
 .about-topright p {
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 /* botleft  */
@@ -216,7 +218,7 @@ article#about section p {
 }
 
 .about-botleft p {
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 
@@ -453,6 +455,19 @@ article#terms section p {
         width: 100%;
     }
 
+    /* about  */
+    article#about section {
+        margin: 0;
+    }
+
+    article#about h1 {
+        font: 700 2rem/2.4rem "Outfit";
+    }
+
+    article#about h1 {
+        font: 700 2rem/2.4rem "Outfit";
+    }
+
     /* platform  */
     article#platform {
         height: auto;
@@ -504,25 +519,24 @@ article#terms section p {
         display: inline;
     }
 
-
     /* home */
     article#home h1 {
         font: 700 2.8rem/3.5rem "Outfit";
     }
 
     /* about */
-    .about-botleft, .about-topright {
+
+    article#about section {
         display: block;
         width: 100%;
     }
 
-    .about-topright {
-        padding-left: 0;
+    article#about section p {
+        margin: 20px 0;
     }
 
-    .about-topright p {
-        margin-left: 0;
-        margin-top: 10px;
+    .about-topright h1 {
+        text-align: left;
     }
 
     /* team  */
@@ -603,6 +617,19 @@ article#terms section p {
     article#about {
         height: auto;
         margin: 50px;
+    }
+
+    article#about section {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    article#about section h1 {
+        font: 700 1.6rem/2rem "Outfit";
+    }
+
+    article#about#section p {
+        margin: 0 20px;
     }
 
     /* platform */
