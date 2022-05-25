@@ -21,13 +21,13 @@
             </section>
         </article>
         <article id="about">
-            <section class="about-1">
-                <h1>The vision</h1>
-                <p>Mirage's platform creates a space for users to interact with augmented reality in a convenient and accessible way. The platform draws together existing AR features on one platform and implements local data transfer techniques to create interactive multi-user experiences that enhance daily life. The platform will be a new medium for socialising and brings with it opportunities for companies and consumers alike. Businesses can create unique AR products and services, dynamic and insightful advertisements and interesting and engaging events whilst consumers can discover a space for creativity and entertainment.</p>
-            </section>
-            <section class="about-2">
-                <h1>The problem</h1>
+            <section class="about-topright">
+                <h1>Augmented reality has a problem</h1>
                 <p>The full potential of augmented reality is currently restricted by a lack of accessibility.  AR is currently only offered as a feature on certain websites or on company-specific apps. In order to offer both businesses and consumers the full use and entertainment potential of AR, these features need to be united into a single platform.</p>
+            </section>
+            <section class="about-botleft">
+                <h1>A single platform solution</h1>
+                <p>Mirage's platform creates a space for users to interact with augmented reality in a convenient and accessible way. The platform draws together existing AR features onto a single platform and implements local data transfer techniques to create interactive multi-user experiences that enhance daily life. The platform is a new medium for socialising and creates opportunities for companies and consumers alike. Businesses can make unique AR products and services, dynamic and insightful advertisements and interesting and engaging events whilst consumers can discover a space for creativity and entertainment.</p>
             </section>
         </article>
         <article id="platform">
@@ -70,14 +70,14 @@
                     <div class="image-container"><img src="assets/images/team/anthony.png" alt="anthony-duncalf"></div>
                     <div class="card-info">
                         <h3>Anthony Duncalf <span>| CEO</span></h3>
-                        <p>Anthony is a co-founder of Mirage and has previous experience in start-ups and the financial sector. He is responsible for the business operations, strategy and marketing as well as managing the company's finances.</p>
+                        <p>Anthony is a co-founder and has previous experience in start-ups and the financial sector. He is responsible for the business operations, strategy and marketing as well as managing the company's finances.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="image-container"><img src="assets/images/team/josh.jpg" alt="joshua-venters"></div>
                     <div class="card-info">
                         <h3>Joshua Venters <span>| CTO</span></h3>
-                        <p>Joshua is a co-founder of Mirage and has a background in industry where he specialised in machine learning, computer vision, R&D and deployment and server engineering. He is responsible for the technical development of Mirage's platform.</p>
+                        <p>Joshua is a co-founder and has a background in industry where he specialised in machine learning, computer vision, R&D and deployment and server engineering. He is responsible for the technical development of Mirage's platform.</p>
                     </div>
                 </div>
                 <div class="card">

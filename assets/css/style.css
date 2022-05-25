@@ -188,23 +188,37 @@ article#about {
     justify-content: space-evenly;
 }
 
-.about-1 {
-    width: 60%;
-}
-
-.about-1 p {
-    margin-top: 10px;
-}
-
-.about-2 {
+article#about section {
     display: flex;
-    padding-left: 30%;
 }
 
-.about-2 p {
-    margin-left: 20px;
-    margin-top: 10px;
+article#about section p {
+    text-align: justify;
 }
+
+/* topright  */
+
+.about-topright h1 {
+    min-width: 235px;
+}
+
+.about-topright p {
+    margin-left: 20px;
+}
+
+/* botleft  */
+.about-botleft {
+    flex-direction: row-reverse;
+}
+
+.about-botleft h1 {
+    min-width: 190px;
+}
+
+.about-botleft p {
+    margin-right: 20px;
+}
+
 
 /* #platform */
 
@@ -459,7 +473,7 @@ article#terms section p {
     }
 
     /* about */
-    .about-1 {
+    .about-botleft {
         margin-bottom: 40px;
     }
 
@@ -497,16 +511,16 @@ article#terms section p {
     }
 
     /* about */
-    .about-1, .about-2 {
+    .about-botleft, .about-topright {
         display: block;
         width: 100%;
     }
 
-    .about-2 {
+    .about-topright {
         padding-left: 0;
     }
 
-    .about-2 p {
+    .about-topright p {
         margin-left: 0;
         margin-top: 10px;
     }
