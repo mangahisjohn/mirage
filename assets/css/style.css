@@ -190,7 +190,8 @@ article#about {
 
 article#about section {
     display: flex;
-    margin: 0 7%;
+    align-items: center;
+    margin: 0 8%;
 }
 
 article#about section p {
@@ -198,16 +199,13 @@ article#about section p {
 }
 
 /* topright  */
-
 .about-topright h1 {
     text-align: right;
     min-width: 235px;
 }
-
 .about-topright p {
     margin-left: 40px;
 }
-
 /* botleft  */
 .about-botleft {
     flex-direction: row-reverse;
@@ -216,7 +214,6 @@ article#about section p {
 .about-botleft h1 {
     min-width: 190px;
 }
-
 .about-botleft p {
     margin-right: 40px;
 }
