@@ -95,9 +95,9 @@
                     <div class="image-container"><img src="assets/images/team/konstantina.jpg" alt="konstantina-psoma"></div>
                     <div class="card-info">
                         <h3>Konstanina Psoma</h3>
-                        <p>Kaedim | CEO and Co-Founder</p>
-                        <br/>
-                        <p>[Description]</p>
+                        <p><span>Kaedim | CEO</span></p>
+                        <br>
+                        <p>[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.]</p>
                     </div>
                 </div>
             </section>
