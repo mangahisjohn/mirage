@@ -65,6 +65,7 @@
             </section>
         </article>
         <article id="team">
+        <h1>Team</h1>
             <section>
                 <div class="card">
                     <div class="image-container"><img src="assets/images/team/anthony.png" alt="anthony-duncalf"></div>
@@ -87,11 +88,24 @@
                         <p>Sebastian is a full stack engineer with SaaS experience. He is responsible for implementation of backend architecture on the Mirage platform.</p>
                     </div>
                 </div>
+            </section>
+            <h1 class="h1-advisors">Advisors</h1>
+            <section>
                 <div class="card">
-                    <div class="image-container"><img src="assets/images/team/behrad.jpg" alt="behrad-kooh"></div>
+                    <div class="image-container"><img src="assets/images/team/konstantina.jpg" alt="konstantina-psoma"></div>
                     <div class="card-info">
-                        <h3>Behrad Kooh <span>| Developer</span></h3>
-                        <p>Behrad has previous experience working as a full stack engineer and is currently obtaining a PhD in networks. He is responsible for integrating vision algorithms and machine learning features to the platform.</p>
+                        <h3>Konstanina Psoma</h3>
+                        <p>Kaedim | CEO and Co-Founder</p>
+                        <br/>
+                        <p>[Description]</p>
+                    </div>
+                </div>
+            </section>
+            <section class="advisors-container">
+                <div class="get-in-touch-card">
+                    <h2>Want to become an advisor?</h2>
+                    <div class="btn-container">
+                        <div id="advisor-btn" class="btn" role="button" tabindex="0">Get in touch</div>
                     </div>
                 </div>
             </section>
