@@ -295,7 +295,7 @@ article#team section {
 }
 
 .card-info {
-    margin: 0 5px;
+    margin: 15px;
 }
 
 .card-info h3 {
@@ -438,19 +438,25 @@ article#terms section p {
 /* X-Large */
 @media screen and (min-width: 1200px) {
     .card {
-        width: 280px;
+        width: 290px;
         height: 410px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .card {
-        width: 280px;
+        width: 290px;
         height: 410px;
     }
 
     article#team {
         margin: 0 40px 40px 40px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .advisors-card {
+        height: 285px;
     }
 }
 
@@ -665,8 +671,12 @@ article#terms section p {
         margin-bottom: 40px;
     }
     .card {
-        width: 270px;
-        height: 340px;
+        width: 280px;
+        height: 370px;
+    }
+
+    .advisors-card {
+        height: 260px;
     }
 
     .card-info {
