@@ -30,7 +30,7 @@
                 <p>Mirage's platform creates a space for users to interact with augmented reality in a convenient and accessible way. The platform draws together existing AR features onto a single platform and implements local data transfer techniques to create interactive multi-user experiences that enhance daily life. The platform is a new medium for socialising and creates opportunities for companies and consumers alike. Businesses can make unique AR products and services, dynamic advertisements and engaging events whilst consumers can discover a space for creativity and entertainment.</p>
             </section>
         </article>
-        <article id="platform">
+        <article id="app">
             <section>
                 <div class="container">
                     <div class="container-item">

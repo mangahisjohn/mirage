@@ -10,6 +10,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     scroll-behavior: smooth;
+    scroll-padding-top: 90px;
 }
 
 p a {
@@ -182,7 +183,7 @@ article#home div.btn-container .btn:after {
 
 /* #about */
 article#about {
-    height: 100vh;
+    height: 90vh;
     flex-direction: column;
     justify-content: space-evenly;
 }
@@ -218,27 +219,27 @@ article#about section p {
 }
 
 
-/* #platform */
+/* #app */
 
-article#platform {
+article#app {
     height: 90vh;
     align-items: center;
 }
 
-article#platform .container {
+article#app .container {
     display: flex;
 }
 
-article#platform h1 {
+article#app h1 {
     margin-bottom: 80px;
     width: 40%;
 }
 
-article#platform .container h2 {
+article#app .container h2 {
     font: 600 1.25rem/1.5rem "Outfit";
 }
 
-article#platform .container-item {
+article#app .container-item {
     width: 33%;
     padding: 15px;
     display: flex;
@@ -246,7 +247,7 @@ article#platform .container-item {
     align-items: center;
 }
 
-article#platform img {
+article#app img {
     width: 100px;
     height: 100px;
     margin: 20px;
@@ -258,6 +259,7 @@ article#platform img {
 article#team {
     display: block;
     height: auto;
+    margin-top: 40px;
     margin-bottom: 120px;
 }
 
@@ -494,22 +496,22 @@ article#terms section p {
         font: 700 2rem/2.4rem "Outfit";
     }
 
-    /* platform  */
-    article#platform {
+    /* app  */
+    article#app {
         height: auto;
         margin: 50px;
     }
 
-    article#platform .container {
+    article#app .container {
         flex-direction: column;
     }
 
-    article#platform .container .container-item {
+    article#app .container .container-item {
         width: auto;
         flex-direction: row;
     }
 
-    article#platform .image-container {
+    article#app .image-container {
         margin-right: 10px;
     }
 
@@ -659,8 +661,8 @@ article#terms section p {
         margin: 0 20px;
     }
 
-    /* platform */
-    article#platform .container .container-item {
+    /* app */
+    article#app .container .container-item {
         width: auto;
         flex-direction: column;
     }
