@@ -222,17 +222,14 @@ article#about section p {
 /* #app */
 
 article#app {
-    height: 90vh;
-    align-items: center;
+    height: auto;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 article#app .container {
     display: flex;
-}
-
-article#app h1 {
-    margin-bottom: 80px;
-    width: 40%;
 }
 
 article#app .container h2 {
@@ -252,6 +249,18 @@ article#app img {
     height: 100px;
     margin: 20px;
     transition: all 0.3s ease;
+}
+
+article#app .iframe-container {
+    margin: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+article#app .iframe-container iframe {
+    width: 576px;
+    height: 324px;
 }
 
 /* #team */
